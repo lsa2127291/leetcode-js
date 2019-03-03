@@ -1,6 +1,6 @@
-# leetCode-js
+# leetcode-js
 
-### leetCode的js代码合集，争取每日一更
+### leetcode的js代码合集，争取每日一更
 
 | # | title  | difficulty  |
 | --- |:-------------:| -----:|
