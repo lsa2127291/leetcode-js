@@ -1,5 +1,6 @@
 /**
- * Example 1:
+ Given a string, find the length of the longest substring without repeating characters.
+ Example 1:
 
     Input: "abcabcbb"
     Output: 3 
