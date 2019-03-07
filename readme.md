@@ -6,4 +6,4 @@
 | --- |:-------------:| -----:| --- |
 | 2  | [Add TwoNumbers](./src/addTwoNumbers.js)  | Medium   | 无 |
 | 3  | [Longest Substring Without Repeating Characters](./src/longestSubstringWithoutReapetCharacters.js) | Medium  | 无 |
-| 4  | [Median of Two Sorted Arrays](./src/medianTwoSortedArrays.js) | 有 |
+| 4  | [Median of Two Sorted Arrays](./src/medianTwoSortedArrays.js) | Hard  | 有 |
