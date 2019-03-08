@@ -126,4 +126,3 @@ const findKSortedArrays = (k, A, s1, e1, B, s2, e2) => {
     }
   }
 }
-console.log(findMedianSortedArrays([1, 2, 3], [4,5,6]))
