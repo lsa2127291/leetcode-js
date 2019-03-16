@@ -11,3 +11,4 @@
 | 5  | [Longest Palindromic Substring](./src/longestPalindromicSubstring.js) | Medium | 无 |
 | 6  | [ZigZag Conversion](./src/zigZagConversion.js) | Medium | 无 |
 | 7 | [reverseInteger](./src/reverseInteger.js) |  Easy | 无 |
+| 8 | [String to Integer (atoi)](./src/stringToInteger.js) |  Medium | 无 |
