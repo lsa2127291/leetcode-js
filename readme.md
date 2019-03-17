@@ -10,5 +10,6 @@
 | 4  | [Median of Two Sorted Arrays](./src/medianTwoSortedArrays.js) | Hard | 有 |
 | 5  | [Longest Palindromic Substring](./src/longestPalindromicSubstring.js) | Medium | 无 |
 | 6  | [ZigZag Conversion](./src/zigZagConversion.js) | Medium | 无 |
-| 7 | [reverseInteger](./src/reverseInteger.js) |  Easy | 无 |
+| 7 | [Reverse Integer](./src/reverseInteger.js) |  Easy | 无 |
 | 8 | [String to Integer (atoi)](./src/stringToInteger.js) |  Medium | 无 |
+| 9 | [Palindrome Number](./src/palindromNumber.js) |  Medium | 无 |
