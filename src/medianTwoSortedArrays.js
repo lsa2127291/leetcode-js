@@ -56,7 +56,6 @@ var findMedianSortedArrays = function(nums1, nums2) {
 }
 
 const findKSortedArrays = (k, A, s1, e1, B, s2, e2) => {
-  console.log(A, s1, e1, B, s2, e2, k)
   debugger
   if (s1 >= e1) {
     return B[s2 + k - 1]
@@ -93,7 +92,6 @@ const findKSortedArrays = (k, A, s1, e1, B, s2, e2) => {
       if (mod === 1) {
         const bLen = n - p
         if (bLen >= p) {
-          debugger
           return findKSortedArrays(k - p, A, s1, s1 + p, B, s2 + p, e2)
         } else {
           return findKSortedArrays(k - p, B, s2 + p, e2, A, s1, s1 + p)
