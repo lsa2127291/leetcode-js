@@ -158,7 +158,7 @@ const matchString = (s, t, f) => {
   }
   // console.log(tLen, sLen, k, j)
   while (k < tLen && j < sLen) {
-    console.log(s[j], t[k])
+    // console.log(s[j], t[k])
     if (s[j] !== t[k][0] && t[k][0] !== '.') {
       return false
     }
@@ -254,12 +254,12 @@ const matchString = (s, t, f) => {
           let c = 0
           let total = finalInfo[1]
           let m = k + 1
-          console.log(m, t[m][0], matchChar)
+          // console.log(m, t[m][0], matchChar)
           while (m < tLen && t[m][0] === matchChar && c < total) {
             c++
             m++
           }
-          console.log(t[m][0])
+          // console.log(t[m][0])
           k = m
         } else if (hasMove) {
           k++
@@ -283,15 +283,15 @@ const matchString = (s, t, f) => {
   }
   return false
 }
-// console.log(isMatch('aasdfaaaaaaaaaaaaaaaaaaaaabbbbsdfasdfasdfas', 'a*aasdfa*.*bbsdf.*asdf.*asdf.*s'))
-// console.log(isMatch('aa', 'a*'))
-// console.log(isMatch('ab', '.*c'))
-// console.log(isMatch('aaca', 'ab*a*c*a'))
-// console.log(isMatch('mississippi', 'mis*is*p*.'))
-// console.log(isMatch('mississippi', 'mis*is*ip*.'))
-// console.log(isMatch('aaa', 'ab*ac*a'))
-// console.log(isMatch('ab', '.*..'))
-// console.log(isMatch('ab', '.*..c*'))
-// console.log(isMatch('bbab', 'b*a*'))
-// console.log(isMatch('aabcbcbcaccbcaabc', '.*a*aa*.*b*.c*.*a*'))
+console.log(isMatch('aasdfaaaaaaaaaaaaaaaaaaaaabbbbsdfasdfasdfas', 'a*aasdfa*.*bbsdf.*asdf.*asdf.*s'))
+console.log(isMatch('aa', 'a*'))
+console.log(isMatch('ab', '.*c'))
+console.log(isMatch('aaca', 'ab*a*c*a'))
+console.log(isMatch('mississippi', 'mis*is*p*.'))
+console.log(isMatch('mississippi', 'mis*is*ip*.'))
+console.log(isMatch('aaa', 'ab*ac*a'))
+console.log(isMatch('ab', '.*..'))
+console.log(isMatch('ab', '.*..c*'))
+console.log(isMatch('bbab', 'b*a*'))
+console.log(isMatch('aabcbcbcaccbcaabc', '.*a*aa*.*b*.c*.*a*'))
 console.log(isMatch('baabbbaccbccacacc', 'c*..b*a*a.*a..*c'))
