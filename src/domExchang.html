@@ -1,0 +1,23 @@
+<html>
+  <body>
+    <div id='parent'>
+        <div>aaa</div>
+        <div>bbb</div>
+        <div>ccc</div>
+    </div>
+    <script>
+        const parent = document.getElementById('parent')
+        const childNodes = parent.children
+        // 无需借助tmp节点
+        // parent.insertBefore(childNodes[childNodes.length - 1], childNodes[0])
+        // parent.appendChild(childNodes[1])
+        // 借助tmp
+        const tmpNode = childNodes[0].cloneNode(true)
+        parent.replaceChild(childNodes[childNodes.length - 1], childNodes[0])
+        parent.appendChild(tmpNode)
+        // parent.replaceChild(tmpNode, childNodes[childNodes.length - 1])
+        // childNodes[childNodes.length - 1] = tmpNode
+        // document.body.insertBefore(divs[divs.length - 1], divs[0])
+    </script>
+  </body>
+</html>
