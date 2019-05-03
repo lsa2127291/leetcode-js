@@ -17,3 +17,6 @@
 | 11 | [Container With Most Water](./src/containerWithMostWater.js) |  Medium | 无 |
 | 12 | [Integert To Roman](./src/IntegertToRoman.js) | Medium | 无 |
 | 13 | [Roman To Integert ](./src/romanToInteger.js) | Easy | 无 |
+| 14 | [Three Sum](./src/threeSum.js) | Medium | 无 |
+| 15 | [Three Sum Closeset](./src/threeSumClosest.js) | Medium | 无 |
+| 16 | [Letter Combinations Of APhoneNumber](./src/letterCombinationsOfAPhoneNumber.js) | Medium | 无 |
