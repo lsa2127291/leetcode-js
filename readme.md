@@ -22,3 +22,5 @@
 | 16 | [Letter Combinations Of APhoneNumber](./src/letterCombinationsOfAPhoneNumber.js) | Medium | 无 |
 | 17 | [Four Sum](./src/fourSum.js) | Medium | 无 |
 | 18 | [Remove Nth Node From End of List](./src/removeNthFromEnd.js) | Medium | 无 |
+| 19 | [Spiral Matrix II](./src/spiralMatrixII.js) | Medium | 无 |
+| 20 | [Valid Parentheses](./src/validParentheses.js) | Medium | 无 |
