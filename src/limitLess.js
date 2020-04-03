@@ -1,5 +1,4 @@
- 
-function add(...args) {
+ function add(...args) {
   let sum = args.reduce((acc, cur) => acc + cur);
   const tmp = function (...args) {
     sum = sum + args.reduce((acc, cur) => acc + cur);

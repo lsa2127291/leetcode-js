@@ -25,6 +25,27 @@ A   L S  I G
 Y A   H R
 P     I
  */
+
+/**
+ * 思路： 4行时的走法->(0, 0) (1, 0) (2, 0) (3, 0) (2, 1) (1, 2) (1 ,3) (0, 4) 形成循环
+ * 伪代码：
+ * crawl[][]
+ * for (k = 0; k < slen;) {
+ *  j = 0
+ *  for (i = 0; i < row; i++) {
+ *    crawl[i][j] = s[k++]
+ *  }
+ *  for (i >= 0; i--) {
+ *    craw[i][j++] = s[k++]
+ * }
+ * }
+ * for (i = 0; i < row; i++) {
+ *  for (c = 0; c < j; c++) {
+ *    out += craw[i][c]
+ * }
+ * return out
+ * }
+ */
 var convert = function(s, numRows) {
   let len = s.length
   if (numRows === 1 || !len) {
